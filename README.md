@@ -1,27 +1,27 @@
-# Conversor de Base Hexadecimal a Octal
+# Conversor de Base Hexadecimal a Octal (Hexadecimal to Octal Base Converter)
 
-Este es un programa simple en Python que convierte un número en base hexadecimal a su equivalente en base octal. El programa utiliza un enfoque manual sin utilizar las funciones integradas de Python para realizar la conversión.
+Este es un programa simple en Python que convierte un número en base hexadecimal a su equivalente en base octal. (This is a simple Python program that converts a hexadecimal number to its equivalent in octal base.)
 
-## Características
+## Características (Features)
 
-- Convierte números hexadecimales a octales sin usar funciones integradas de Python.
-- Muestra un encabezado del programa con los nombres de los autores.
-- Solicita al usuario que ingrese un número hexadecimal a convertir.
-- Muestra el resultado de la conversión en la pantalla.
+- Convierte números hexadecimales a octales sin usar funciones integradas de Python. (Converts hexadecimal numbers to octal without using built-in Python functions.)
+- Muestra un encabezado del programa con los nombres de los autores. (Displays a program header with the authors' names.)
+- Solicita al usuario que ingrese un número hexadecimal a convertir. (Prompts the user to enter a hexadecimal number to convert.)
+- Muestra el resultado de la conversión en la pantalla. (Displays the conversion result on the screen.)
 
-## Instrucciones de Uso
+## Instrucciones de Uso (Usage Instructions)
 
-1. Clona o descarga este repositorio en tu máquina local.
+1. Clona o descarga este repositorio en tu máquina local. (Clone or download this repository to your local machine.)
 
-2. Abre una terminal y navega hasta el directorio del proyecto.
+2. Abre una terminal y navega hasta el directorio del proyecto. (Open a terminal and navigate to the project directory.)
 
-3. Ejecuta el programa con el siguiente comando:
+3. Ejecuta el programa con el siguiente comando: (Run the program with the following command:)
 
-4. Sigue las instrucciones en pantalla para ingresar el número hexadecimal que deseas convertir.
+4. Sigue las instrucciones en pantalla para ingresar el número hexadecimal que deseas convertir. (Follow the on-screen instructions to enter the hexadecimal number you want to convert.)
 
-5. El programa mostrará el número hexadecimal ingresado y su equivalente en base octal.
+5. El programa mostrará el número hexadecimal ingresado y su equivalente en base octal. (The program will display the entered hexadecimal number and its equivalent in octal base.)
 
-## Autores
+## Autores (Authors)
 
 - Jeferson Fuentes García
 - Nathaly Nuñez Ulate
