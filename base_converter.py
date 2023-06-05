@@ -68,6 +68,5 @@ while True:
     # Convertir el número hexadecimal a octal
     octal = hex_to_oct(hexadecimal)
     print('El número', hexadecimal, 'octal equivalente es:', octal, '\n')
-    # print()  # Línea en blanco para separar las conversiones
 
 print("\nSalida exitosa!\n")    
