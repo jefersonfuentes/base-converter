@@ -70,4 +70,4 @@ while True:
     print('El número', hexadecimal, 'octal equivalente es:', octal)
     print()  # Línea en blanco para separar las conversiones
 
-print("\nSalida exitosa!")    
+print("\nSalida exitosa!\n")    

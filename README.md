@@ -21,7 +21,7 @@ Este es un programa simple en Python que convierte un número en base hexadecima
 
 5. El programa mostrará el número hexadecimal ingresado y su equivalente en base octal. (The program will display the entered hexadecimal number and its equivalent in octal base.)
 
-## Autores (Authors)
+## Autores / Authors 
 
 - Jeferson Fuentes García
 - Nathaly Nuñez Ulate
