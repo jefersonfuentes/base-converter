@@ -1,5 +1,3 @@
-
-
 # Investigación de lógica para informáticos conversor de base hexadecimal a octal.
 
 def header():
@@ -49,12 +47,27 @@ def hex_to_oct(hex_num):
 
     return oct_num
 
+# Encabezado del programa
 header()
 
-hexadecimal = input("Ingresa un número hexadecimal: ")
-hexadecimal = hexadecimal.upper() # Formateo del string a mayúscula para evitar errores con el diccionario.
-octal = hex_to_oct(hexadecimal)
-print('El número', hexadecimal,'octal equivalente es:', octal)
+# Bucle principal para permitir múltiples conversiones
+while True:
+    hexadecimal = input("Ingresa un número hexadecimal (o escribe 'salir' para terminar): ")
+    hexadecimal = hexadecimal.upper() # Formateo del string a mayúscula para evitar errores con el diccionario.
+    
+    # Comprobar si el usuario quiere salir del programa
+    if hexadecimal == "SALIR":
+        break
 
+    # Validar el número hexadecimal ingresado
+    valid_hex = all(c in '0123456789ABCDEF' for c in hexadecimal)
+    if not valid_hex:
+        print("\n¡Error! El número ingresado no es un número hexadecimal válido.\nLos dígitos válidos son: 0-9, A-F.\n")
+        continue
 
+    # Convertir el número hexadecimal a octal
+    octal = hex_to_oct(hexadecimal)
+    print('El número', hexadecimal, 'octal equivalente es:', octal)
+    print()  # Línea en blanco para separar las conversiones
 
+print("\nSalida exitosa!")    
