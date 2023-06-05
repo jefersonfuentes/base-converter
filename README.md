@@ -19,7 +19,7 @@ Este es un programa simple en Python que convierte un número en base hexadecima
 python base_converter.py
 ```
 4. Sigue las instrucciones en pantalla para ingresar el número hexadecimal que deseas convertir / Follow the on-screen instructions to enter the hexadecimal number you want to convert.
-5. El programa mostrará el número hexadecimal ingresado y su equivalente en base octal / The program will display the entered hexadecimal number and its equivalent in octal base.
+5. El programa mostrará el número hexadecimal ingresado y su equivalente en base octal / The program will display the entered hexadecimal number and its equivalent in octal base. For example:
 
 ![image](https://github.com/jefersonfuentes/base-converter/assets/121473165/91db9b69-acc7-4ce8-9d9d-b272592fe0b7)
 
